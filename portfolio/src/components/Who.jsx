@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import User from "../assets/user.png";
+import Cube from './Cube';
 const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
@@ -88,7 +89,7 @@ const Who = () => {
     <Section>
       <Container>
         <Left >
-
+          <Cube/>
         </Left>
         <Right >
           <Title>Think outside the square space</Title>

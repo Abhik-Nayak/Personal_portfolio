@@ -28,7 +28,7 @@ const Title = styled.h1`
   font-weight: 200;
 `;
 const Form = styled.form`
-  width: 400px;
+  width: 450px;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -60,7 +60,7 @@ const Button = styled.button`
   padding: 20px;
 `;
 const Middle = styled.div`
-  flex: 1;
+  flex: 0;
   display: flex;
   align-items: center;
   // border: 2px solid red;
@@ -72,6 +72,9 @@ const Right = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 0 0 20px;
   // border: 2px solid red;
   @media only screen and (max-width: 768px) {
     display: none;
@@ -116,9 +119,11 @@ const Contact = () => {
 
         </Middle>
         <Right>
+        <Title>Contact Us</Title>
+          <div style={{height: "150px",width: "80%",border:"2px solid red",top: "30px",marginBottom:"30px"}}></div>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239486.66728042197!2d85.65563620518064!3d20.301129051258286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909d2d5170aa5%3A0xfc580e2b68b33fa8!2sBhubaneswar%2C%20Odisha!5e0!3m2!1sen!2sin!4v1681394330818!5m2!1sen!2sin"
-            width="100%"
-            height="450"
+            width="80%"
+            height="200"
             style={{ border: 0 ,minWidth:"300px"}}
             allowfullscreen=""
             loading="lazy"
