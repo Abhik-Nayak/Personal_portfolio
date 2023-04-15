@@ -1,0 +1,13 @@
+
+.Sci li{
+    list-style: none;
+    margin-right: 15px;
+}
+.Sci li a{
+    color: #fff;
+    font-size: 2em;
+    columns: #ccc;
+}
+:Sci li a:hover{
+    color: #fff;
+}

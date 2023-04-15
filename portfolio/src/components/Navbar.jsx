@@ -6,8 +6,8 @@ const Section = styled.div`
   justify-content: center;
   overflow:hidden;
   position:fixed;
-  background: rgb(0,212,255);
-background-image: linear-gradient(to top, #30cfd0 0%, #330867 0%);
+  background: url('./img/bg.jpeg');
+// background-image: linear-gradient(to top, #30cfd0 0%, #330867 0%);
 &::-webkit-scrollbar{
   @media only screen and (max-width: 768px) {
     width: 100%;
