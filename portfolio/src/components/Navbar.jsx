@@ -1,7 +1,18 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from "react-router-dom";
 const Navbar = () => {
+    const [activeLink, setActiveLink] = useState('home');
 
+    // const history = useHistory();
+
+
+    useEffect(() => {
+        // Navigate to the "/about" route when the component mounts
+        // history.push('/');
+      }, []);
+    const onUpdateActiveLink = (value) => {
+        setActiveLink(value);
+    }
     return (
         // <!-- --------------- HEADER --------------- -->
         <nav id="header">
@@ -12,25 +23,28 @@ const Navbar = () => {
             <div className="nav-menu" id="myNavMenu">
                 <ul className="nav_menu_list">
                     <li className="nav_list">
-                        <Link to="/" className="nav-link active-link">
+                        {/* <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+                        <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+                        <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link> */}
+                        <Link to="/" className={activeLink === 'home' ? 'nav-link active-link' : 'nav-link'} onClick={() => onUpdateActiveLink('home')}>
                             Home
                         </Link>
                         <div className="circle"></div>
                     </li>
                     <li className="nav_list">
-                        <Link to="/about" className="nav-link">
+                        <Link to="/about" className={activeLink === 'about' ? 'nav-link active-link' : 'nav-link'} onClick={() => onUpdateActiveLink('about')}>
                             About
                         </Link>
                         <div className="circle"></div>
                     </li>
                     <li className="nav_list">
-                        <Link to="/project" className="nav-link">
+                        <Link to="/project" className={activeLink === 'project' ? 'nav-link active-link' : 'nav-link'} onClick={() => onUpdateActiveLink('project')}>
                             Projects
                         </Link>
                         <div className="circle"></div>
                     </li>
                     <li className="nav_list">
-                        <Link to="/contact" className="nav-link">
+                        <Link to="/contact" className={activeLink === 'contact' ? 'nav-link active-link' : 'nav-link'} onClick={() => onUpdateActiveLink('contact')}>
                             Contact
                         </Link>
                         <div className="circle"></div>

@@ -76,9 +76,9 @@ const Home = () => {
                         <button className="btn">Download CV <i className="uil uil-file-alt"></i></button>
                     </div>
                     <div className="social_icons">
-                        <div className="icon"><i className="uil uil-instagram"></i></div>
+                        {/* <div className="icon"><i className="uil uil-instagram"></i></div> */}
                         <div className="icon"><i className="uil uil-linkedin-alt"></i></div>
-                        <div className="icon"><i className="uil uil-twitter"></i></div>
+                        <div className="icon"><i className="uil uil-skype"></i></div>
                         <div className="icon"><i className="uil uil-github-alt"></i></div>
                     </div>
                 </div>

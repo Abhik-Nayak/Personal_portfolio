@@ -10,6 +10,7 @@ import About from './components/About/About';
 import Navbar from './components/Navbar';
 import Navbar1 from './components/Navbar/Navbar1';
 import Project from './components/Project';
+import Contact from './components/Contact';
 import "./styles.css"
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path='/project' element={<Project />} />
           <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
           <Route path='*' element={<Home />} />
         </Routes>
         {/* <Footer/> */}
