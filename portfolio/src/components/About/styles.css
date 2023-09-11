@@ -10,4 +10,17 @@
 .colAbout {
     display: flex;
     width: 100%;
+    flex-direction: column;
+}
+
+.skills-header-about {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-list-about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
