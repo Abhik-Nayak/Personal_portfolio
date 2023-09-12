@@ -451,6 +451,7 @@ h3 {
 .project-box-prjt:hover {
     box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
     transform: translateY(-2px);
+    transition: .4s;
   }
 /* .project-box>i {
     font-size: 50px;
@@ -497,7 +498,7 @@ h3 {
      width:100%;
     /* background: rgb(115, 114, 114);  */
 }
-.button-10 {
+.project-btn {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -508,29 +509,30 @@ h3 {
     width: 50%;
     /* position: absolute; */
     color: #fff;
-    background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+    background: linear-gradient(180deg, #1e9fab 0%, #1e9fab 100%);
     background-origin: border-box;
     box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    cursor: pointer;
 }
 
-.button-10:focus {
+.project-btn:focus {
     box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
     outline: 0;
 }
 
-/* .button-10:focus {
+/* .project-btn:focus {
     box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
   } */
   
-  .button-10:hover {
+  .project-btn:hover {
     box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
     transform: translateY(-2px);
   }
   
-  .button-10:active {
+  .project-btn:active {
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
   }

@@ -1,6 +1,7 @@
 import React from 'react'
 import flipkart from "../assets/flipKart.png";
-import dashboard from "../assets/Admin-demo.png"
+import dashboard from "../assets/Admin-demo.png";
+import user from "../assets/user1.gif"
 const Project = () => {
   return (
     <main className="wrapper">
@@ -12,36 +13,36 @@ const Project = () => {
           <div className='project-box-prjt'>
             <img style={{ height: "100%", width: "100%" }} src={flipkart}></img>
             <div className='project-btn-section'>
-              <button className="button-10" role="button">View</button>
-              <button className="button-10" role="button">Source Code</button>
+              <button className="project-btn" role="button">View</button>
+              <button className="project-btn" role="button">Source Code</button>
             </div>
           </div>
           <div className='project-box-prjt'>
             <img style={{ height: "100%", width: "100%" }} src={dashboard}></img>
             <div className='project-btn-section'>
-              <button className="button-10" role="button">View</button>
-              <button className="button-10" role="button">Source Code</button>
+              <button className="project-btn" role="button">View</button>
+              <button className="project-btn" role="button">Source Code</button>
+            </div>
+          </div>
+          <div className='project-box-prjt'>
+            <img style={{ height: "100%", width: "100%" }} src={dashboard}></img>
+            <div className='project-btn-section'>
+              <button className="project-btn" role="button">View</button>
+              <button className="project-btn" role="button">Source Code</button>
             </div>
           </div>
           <div className='project-box-prjt'>
             <img style={{ height: "100%", width: "100%" }} src={flipkart}></img>
             <div className='project-btn-section'>
-              <button className="button-10" role="button">View</button>
-              <button className="button-10" role="button">Source Code</button>
+              <button className="project-btn" role="button">View</button>
+              <button className="project-btn" role="button">Source Code</button>
             </div>
           </div>
           <div className='project-box-prjt'>
             <img style={{ height: "100%", width: "100%" }} src={flipkart}></img>
             <div className='project-btn-section'>
-              <button className="button-10" role="button">View</button>
-              <button className="button-10" role="button">Source Code</button>
-            </div>
-          </div>
-          <div className='project-box-prjt'>
-            <img style={{ height: "100%", width: "100%" }} src={flipkart}></img>
-            <div className='project-btn-section'>
-              <button className="button-10" role="button">View</button>
-              <button className="button-10" role="button">Source Code</button>
+              <button className="project-btn" role="button">View</button>
+              <button className="project-btn" role="button">Source Code</button>
             </div>
           </div>
 
