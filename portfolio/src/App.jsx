@@ -11,7 +11,7 @@ import Navbar from './components/Navbar';
 import Navbar1 from './components/Navbar/Navbar1';
 import Project from './components/Project';
 import Contact from './components/Contact';
-import Projectdetails from './components/Projectdetails/Projectdetails';
+import Projectdetails from './components/Projectdetails';
 import "./styles.css"
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
@@ -25,7 +25,7 @@ const App = () => {
           <Route path='/project' element={<Project />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/projectdetails' elememt={<Projectdetails />}/>
+          <Route path='/projectdetails/:projectId' element={<Projectdetails />}/>
           <Route path='*' element={<Home />} />
         </Routes>
         {/* <Footer/> */}

@@ -431,7 +431,8 @@ h3 {
     justify-content: end;
     align-items: center;
     flex-direction: column;
-    width: 30%;
+    /* width: 30%; */
+    width: 300px;
     height: 250px;
     background: rgb(155, 155, 155);
     border-radius: 20px;
@@ -452,52 +453,15 @@ h3 {
     box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
     transform: translateY(-2px);
     transition: .4s;
-  }
-/* .project-box>i {
-    font-size: 50px;
-    color: #00B5E7;
-    margin-bottom: 25px;
 }
 
-.project-box label {
-    font-size: 15px;
-    color: #777;
-}
-
-.project-box::after,
-.contact-info::after {
-    content: "";
-    position: absolute;
-    bottom: -100%;
-    background: var(--second-color);
-    width: 100%;
-    height: 100%;
-    transition: .4s;
-    z-index: 1;
-}
-
-.project-box:hover.project-box::after,
-.contact-info:hover.contact-info::after {
-    bottom: 0;
-
-    &:hover {
-        transform: rotateY(0.5turn);
-    }
-}
-
-.project-box:hover.project-box i,
-.project-box:hover.project-box>h3,
-.project-box:hover.project-box>label {
-    color: var(--color-white);
-    z-index: 2;
-} */
-
-.project-btn-section{
+.project-btn-section {
     display: flex;
     flex-direction: row;
-     width:100%;
+    width: 100%;
     /* background: rgb(115, 114, 114);  */
 }
+
 .project-btn {
     display: flex;
     flex-direction: column;
@@ -523,19 +487,20 @@ h3 {
     outline: 0;
 }
 
-/* .project-btn:focus {
-    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-  } */
-  
-  .project-btn:hover {
+.project-btn:hover {
     box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
     transform: translateY(-2px);
-  }
-  
-  .project-btn:active {
+}
+
+.project-btn:active {
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
-  }
+}
+
+/* ----- PROJECT DETAILS ------- */
+.featured-image-prjt{
+    justify-content: left;
+}
 /* ----- CONTACT BOX ----- */
 .contact-info {
     position: relative;
@@ -567,6 +532,21 @@ h3 {
 
 .contact-info p>i {
     font-size: 18px;
+}
+
+.contact-info::after {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    background: var(--second-color);
+    width: 100%;
+    height: 100%;
+    transition: .4s;
+    z-index: 1;
+}
+
+.contact-info:hover.contact-info::after {
+    bottom: 0;
 }
 
 .contact-info::after {
