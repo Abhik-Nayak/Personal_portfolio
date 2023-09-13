@@ -1,14 +1,29 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from "react-router-dom";
+import { Link ,useNavigate,useLocation} from "react-router-dom";
 const Navbar = () => {
+    const navigate = useNavigate();
+    const location = useLocation();
     const [activeLink, setActiveLink] = useState('home');
-
-    // const history = useHistory();
-
-
+    
+    const { hash, pathname, search } = location;
     useEffect(() => {
-        // Navigate to the "/about" route when the component mounts
-        // history.push('/');
+        // navigate(`${pathname}`);
+        console.log(hash, typeof(pathname), search)
+        if(pathname === '/project'){
+            setActiveLink('project')
+        }
+        else if(pathname === '/about'){
+            setActiveLink('about')
+        }
+        else if(pathname === '/contact'){
+            setActiveLink('contact')
+        }
+        else if(pathname.includes('/projectdetails/')){
+            setActiveLink('project')
+        }
+        else{
+
+        }
       }, []);
     const onUpdateActiveLink = (value) => {
         setActiveLink(value);
@@ -23,9 +38,6 @@ const Navbar = () => {
             <div className="nav-menu" id="myNavMenu">
                 <ul className="nav_menu_list">
                     <li className="nav_list">
-                        {/* <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-                        <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                        <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link> */}
                         <Link to="/" className={activeLink === 'home' ? 'nav-link active-link' : 'nav-link'} onClick={() => onUpdateActiveLink('home')}>
                             Home
                         </Link>

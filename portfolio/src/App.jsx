@@ -15,6 +15,7 @@ import Projectdetails from './components/Projectdetails';
 import "./styles.css"
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
+import { Carousel } from 'react-bootstrap';
 const App = () => {
   return (
     <div className="container">
@@ -26,7 +27,7 @@ const App = () => {
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/projectdetails/:projectId' element={<Projectdetails />}/>
-          <Route path='*' element={<Home />} />
+          <Route path='/test' element={<Carousel />} />
         </Routes>
         {/* <Footer/> */}
       </Router>

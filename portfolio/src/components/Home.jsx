@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Typed from 'typed.js';
+import { useSearchParams } from 'react-router-dom';
 import homeLogo from "../Assets/home-main.svg";
 
 
