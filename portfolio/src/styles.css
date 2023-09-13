@@ -280,7 +280,7 @@ nav a:hover {
 }
 
 .image img {
-    width: 380px;
+    width: 480px;
     height: 380px;
     object-fit: contain;
 }
@@ -501,6 +501,18 @@ h3 {
 .featured-image-prjt{
     justify-content: left;
 }
+.image-prjt {
+    margin: auto 0;
+    width: 480px;
+    height: 380px;
+    animation: none;
+}
+
+.image-prjt img {
+    width: 480px;
+    height: 380px;
+    object-fit: contain;
+}
 /* ----- CONTACT BOX ----- */
 .contact-info {
     position: relative;
@@ -655,6 +667,14 @@ footer {
 
 
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
+@media only screen and (max-width: 1215px) {
+    .image-prjt,
+    .image-prjt img {
+        width: 380px;
+        height: 380px;
+    }
+
+}
 @media only screen and (max-width: 1024px) {
     .featured-text {
         padding: 0;

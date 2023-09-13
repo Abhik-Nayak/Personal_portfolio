@@ -17,6 +17,7 @@
     "react-github-calendar": "^4.0.1",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.15.0",
+    "react-slideshow-image": "^4.2.1",
     "scrollreveal": "^4.0.9",
     "styled-components": "^5.3.6",
     "typed.js": "^2.0.16"
