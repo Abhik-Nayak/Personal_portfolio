@@ -34,7 +34,7 @@ const Projectdetails = () => {
               <p> Flipkart Clone</p>
               <p><span className="typedText1"></span></p>
             </div>
-            <div style={{ height: '200px', width: 'auto', border: '1px solid #ccc', overflow: 'auto', border: 'none' }}>
+            <div style={{ height: '200px', width: 'auto', overflow: 'auto', border: 'none' }}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, sequi cumque ipsam, voluptatem quam nam, alias rerum quo corporis aperiam dolorum quae accusamus vitae porro est quisquam vel nulla exercitationem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, sequi cumque ipsam, voluptatem quam nam, alias rerum quo corporis aperiam dolorum quae accusamus vitae porro est quisquam vel nulla exercitationem!Lorem ipsum dolor sit amet consectetuLorem ipsum dolor sit amet consectetur adipisicing elit. Ea, sequi cumque ipsam, voluptatem quam nam, alias rerum quo corporis aperiam dolorum quae accusamus vitae porro est !
             </div>
             {/* <div className="prjt-description">

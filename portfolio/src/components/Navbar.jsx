@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link ,useNavigate,useLocation} from "react-router-dom";
+import Hambergger from './Hambergger';
 const Navbar = () => {
     const navigate = useNavigate();
     const location = useLocation();
@@ -68,6 +69,7 @@ const Navbar = () => {
             </div>
             <div className="nav-menu-btn">
                 <i className="uil uil-bars" /*onClick={}*/></i>
+                <Hambergger/>
             </div>
         </nav>
     )
