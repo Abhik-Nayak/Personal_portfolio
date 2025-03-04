@@ -1,10 +1,7 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
-</p>
 
 ---
 
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
+# [Built Portfolio With GitHub ](https://github.com/Abhik-Nayak/Personal_portfolio)
 
 ---
 
@@ -18,7 +15,7 @@
 
 ![](./public/image/screen.png)
 
-## View live preview [here](https://abusaid.netlify.app/).
+## View live preview [here](https://abhikdev.netlify.app/).
 
 ---
 
@@ -46,7 +43,6 @@
 - SKILLS
 - PROJECTS
 - EDUCATION
-- BLOG
 - CONTACTS
 
 ---
@@ -99,33 +95,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
-### Running with Docker Compose
 
-1. **Build Docker Image and Run Container**:
-    ```bash
-    docker-compose up --build
-    ```
-
-2. **Access the Application**:
-    Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
-
----
-
-### Building the Docker Image
-
-1. **Build the Docker Image using Dockerfile.dev**:
-
-    ```bash
-    docker build -t nextjs-app -f Dockerfile.dev .
-    ```
-
-2. **Running the Docker Container**:
-
-    ```bash
-    docker run -p 3000:3000 nextjs-app
-    ```
-
-3. **Access the Application**:
+**Access the Application**:
     Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
 
 ---
@@ -141,7 +112,7 @@ GMAIL_PASSKEY =
 EMAIL_ADDRESS =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder](https://github.com/Abhik-Nayak/personal-portfolio/tree/main/utils/data).
 
 Eg:
 
