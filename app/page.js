@@ -11,7 +11,7 @@ export default async function Home() {
 
 
   return (
-    <div suppressHydrationWarning >
+    <div suppressHydrationWarning={true}>
       <HeroSection />
       <AboutSection />
       <Experience />
