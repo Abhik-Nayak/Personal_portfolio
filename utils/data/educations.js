@@ -1,7 +1,7 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree<Hons>",
+    title: "Bachelor Degree<Bsc.Hons>",
     duration: "2015-2018",
     institution: "Utkal University,Odisha,India",
   },
@@ -9,12 +9,12 @@ export const educations = [
     id: 2,
     title: "Higher Secondary Certificate<CHSE>",
     duration: "2013 - 2015",
-    institution: "Kendrapada Junior College",
+    institution: "Kendrapada Junior College,Odisha,India",
   },
   {
     id: 3,
     title: "Secondary School Certificate<CHSE>",
     duration: "2003 - 2013",
-    institution: "M.N High School",
+    institution: "M.N High School,Odisha,India",
   }
 ]
