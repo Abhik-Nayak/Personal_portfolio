@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree<Bsc.Hons>",
-    duration: "2015-2018",
-    institution: "Utkal University,Odisha,India",
+    title: "Bachelor Degree",
+    duration: "2020 - Present",
+    institution: "National University of Bangladesh",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate<CHSE>",
-    duration: "2013 - 2015",
-    institution: "Kendrapada Junior College,Odisha,India",
+    title: "Higher Secondary Certificate",
+    duration: "2018 - 2020",
+    institution: "Noakhali Islamia Kamil Madrasah",
   },
   {
     id: 3,
-    title: "Secondary School Certificate<CHSE>",
-    duration: "2003 - 2013",
-    institution: "M.N High School,Odisha,India",
+    title: "Secondary School Certificate",
+    duration: "2008 - 2018",
+    institution: "Baitus Saif Islamia Madrasah",
   }
 ]
