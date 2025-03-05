@@ -1,4 +1,4 @@
-// import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -10,9 +10,9 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Abhik Nayak - Software Developer",
+  title: "Portfolio of Abu Said - Software Developer",
   description:
-    "This is the portfolio of Abhik Nayak. Experienced Full-Stack Developer with 3+ years of expertise in building responsive, high-performance web applications. Proficient in front-end technologies like React.js, Next.js, and Material-UI, and back-end frameworks such as Node.js, Express, and Django Rest Framework. Skilled in JavaScript (ES5/ES6), TypeScript, HTML5, CSS3, and database management using MySQL, PostgreSQL, and MongoDB. Adept at creating user-friendly interfaces, managing state with Redux, and integrating RESTful APIs. A proactive problem-solver and team player, I excel in debugging, performance optimization, and agile environments. Passionate about delivering secure, maintainable, and scalable solutions while ensuring exceptional user experiences across devices.",
+    "This is the portfolio of Abu Said. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
 };
 
 export default function RootLayout({ children }) {
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         </main>
         <Footer />
       </body>
-      {/* <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} /> */}
+      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
     </html>
   );
 }

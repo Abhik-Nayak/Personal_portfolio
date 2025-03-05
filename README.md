@@ -1,7 +1,10 @@
+<p align="center" width="100%">
+    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
+</p>
 
 ---
 
-# [Built Portfolio With GitHub ](https://github.com/Abhik-Nayak/Personal_portfolio)
+# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
 
 ---
 
@@ -15,7 +18,7 @@
 
 ![](./public/image/screen.png)
 
-## View live preview [here](https://abhikdev.netlify.app/).
+## View live preview [here](https://abusaid.netlify.app/).
 
 ---
 
@@ -43,6 +46,7 @@
 - SKILLS
 - PROJECTS
 - EDUCATION
+- BLOG
 - CONTACTS
 
 ---
@@ -95,8 +99,33 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
+### Running with Docker Compose
 
-**Access the Application**:
+1. **Build Docker Image and Run Container**:
+    ```bash
+    docker-compose up --build
+    ```
+
+2. **Access the Application**:
+    Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
+
+---
+
+### Building the Docker Image
+
+1. **Build the Docker Image using Dockerfile.dev**:
+
+    ```bash
+    docker build -t nextjs-app -f Dockerfile.dev .
+    ```
+
+2. **Running the Docker Container**:
+
+    ```bash
+    docker run -p 3000:3000 nextjs-app
+    ```
+
+3. **Access the Application**:
     Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
 
 ---
@@ -108,32 +137,36 @@ Please create a new `.env` file from `.env.example` file.
 Eg:
 
 ```env
+NEXT_PUBLIC_GTM =
+NEXT_PUBLIC_APP_URL =
+TELEGRAM_BOT_TOKEN =
+TELEGRAM_CHAT_ID =
 GMAIL_PASSKEY =
 EMAIL_ADDRESS =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/Abhik-Nayak/personal-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
 
 Eg:
 
 ```javascript
 export const personalData = {
-  name: "Abhik",
-  profile: '/profile2.jpg',
-  designation: "Software Developer",
-  description: "My name is Abhik Nayak. Experienced Full-Stack Developer with 3+ years of expertise in building responsive, high-performance web applications. Proficient in front-end technologies like React.js, Next.js, and Material-UI, and back-end frameworks such as Node.js, Express, and Django Rest Framework. Skilled in JavaScript (ES5/ES6), TypeScript, HTML5, CSS3, and database management using MySQL, PostgreSQL, and MongoDB. Adept at creating user-friendly interfaces, managing state with Redux, and integrating RESTful APIs. A proactive problem-solver and team player, I excel in debugging, performance optimization, and agile environments. Passionate about delivering secure, maintainable, and scalable solutions while ensuring exceptional user experiences across devices.",
-  email: 'abhiknayak.dev@gmail.com',
-  phone: '+91 7008608725',
-  address: 'Sriampur, Kendrapada, Odisha, India-754217 ',
-  github: 'https://github.com/Abhik-Nayak',
-  facebook: '',
-  linkedIn: 'https://www.linkedin.com/in/abhik1998/',
-  twitter: '',
-  stackOverflow: '',
-  leetcode: "",
-  devUsername: "",
-  resume: ""
-}
+  name: "ABU SAID",
+  profile: "/profile.png",
+  designation: "Full-Stack Software Developer",
+  description: "My name is ABU SAID....",
+  email: "abusaid7388@gmail.com",
+  phone: "+8801608797655",
+  address: "Dhaka, Bangladesh",
+  github: "https://github.com/said7388",
+  facebook: "https://www.facebook.com/abusaid.riyaz/",
+  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
+  twitter: "https://twitter.com/said7388",
+  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
+  leetcode: "https://leetcode.com/said3812/",
+  devUsername: "said7388",
+  resume: "...",
+};
 ```
 
 `devUsername` is used for fetching blog posts from `dev.to`.
@@ -179,6 +212,27 @@ Whenever you push changes to your GitHub repo, Vercel will automatically redeplo
 5. Click on **App Passwords**. You may need to enter your Google account password again.
 6. In the **Select app** dropdown, choose "Mail", and for **Select device**, choose "Other (Custom name)" and name it appropriately (e.g., "Portfolio").
 7. Click **Generate**. A 16-character app password will be displayed. Save this password for later use in your environment variables (e.g., `GMAIL_PASSKEY`).
+
+## Create a Telegram Bot
+
+1. **Open Telegram** and search for the user **@BotFather**.
+2. Start a chat with BotFather and use the `/newbot` command to create a new bot.
+3. Choose a name for your bot.
+4. Set a unique username for your bot (must end with `bot`, e.g., `PortfolioAssistantBot`).
+5. Once your bot is created, BotFather will send you a **Token**. Save this token, as you will need it for your environment variables (e.g., `TELEGRAM_BOT_TOKEN`).
+6. To get your chat ID:
+   - Open your bot in Telegram and send it a message.
+   - Visit the following URL in your browser, replacing `BOT_TOKEN` with your actual bot token:  
+     `https://api.telegram.org/bot<BOT_TOKEN>/getUpdates`
+   - Look for the `chat` object in the response, which contains your **chat ID** (you can use this value for `TELEGRAM_CHAT_ID`).
+
+## Fetching Blog from dev.to
+
+To display your blog posts from dev.to on the portfolio:
+
+1. Set your `devUsername` in the `utils/data.js` file to your dev.to username.
+2. The application will automatically fetch your latest blog posts and display them in the **BLOG** section.
+3. Ensure your blogs are publicly visible on dev.to, and the application will fetch them using the dev.to API.
 
 ---
 

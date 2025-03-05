@@ -1,18 +1,17 @@
 export const personalData = {
-  name: "Abhik",
-  profile: '/profile2.jpg',
+  name: "ABU SAID",
+  profile: '/profile.png',
   designation: "Software Developer",
-  description: "My name is Abhik Nayak. Experienced Full-Stack Developer with 3+ years of expertise in building responsive, high-performance web applications. Proficient in front-end technologies like React.js, Next.js, and Material-UI, and back-end frameworks such as Node.js, Express, and Django Rest Framework. Skilled in JavaScript (ES5/ES6), TypeScript, HTML5, CSS3, and database management using MySQL, PostgreSQL, and MongoDB. Adept at creating user-friendly interfaces, managing state with Redux, and integrating RESTful APIs. A proactive problem-solver and team player, I excel in debugging, performance optimization, and agile environments. Passionate about delivering secure, maintainable, and scalable solutions while ensuring exceptional user experiences across devices.",
-  email: 'abhiknayak.dev@gmail.com',
-  phone: '+91 7008608725',
-  address: 'Sriampur, Kendrapada, Odisha, India-754217 ',
-  github: 'https://github.com/Abhik-Nayak',
-  facebook: '',
-  linkedIn: 'https://www.linkedin.com/in/abhik1998/',
-  twitter: '',
-  stackOverflow: '',
-  leetcode: "",
-  devUsername: "",
-  resume: "https://docs.google.com/document/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/edit?usp=drive_link&ouid=108405494110073130766&rtpof=true&sd=true"
-  // https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing
+  description: "My name is ABU SAID. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  email: 'abusaid7388@gmail.com',
+  phone: '+8801608797655',
+  address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
+  github: 'https://github.com/said7388',
+  facebook: 'https://www.facebook.com/abusaid.riyaz/',
+  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
+  twitter: 'https://twitter.com/said7388',
+  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
+  leetcode: "https://leetcode.com/said3812/",
+  devUsername: "said7388",
+  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
 }
