@@ -1,8 +1,8 @@
 export const personalData = {
   name: "ABHIK NAYAK",
-  profile: '/profile.png',
+  profile: '/profile.jpg',
   designation: "Software Developer",
-  description: "My name is ABHIK NAYAK. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  description: "My name is ABHIK NAYAK. Experienced Full-Stack Developer with 3+ years of expertise in building responsive, high-performance web applications. Proficient in front-end technologies like React.js, Next.js, and Material-UI, and back-end frameworks such as Node.js, Express, and Django Rest Framework. Skilled in JavaScript (ES5/ES6), TypeScript, HTML5, CSS3, and database management using MySQL, PostgreSQL, and MongoDB. Adept at creating user-friendly interfaces, managing state with Redux, and integrating RESTful APIs. Passionate about delivering secure, maintainable, and scalable solutions while ensuring exceptional user experiences across devices.",
   email: 'abhiknayak.dev@gmail.com',
   phone: '+91 7008608725',
   address: 'Pattamundai,Kendrapada,Odisha,India - 754217',
