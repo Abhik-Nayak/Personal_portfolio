@@ -29,14 +29,9 @@ function Experience() {
       </div>
 
       <div className="py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
-          <div className="flex justify-center items-start">
-            <div className="w-full h-full">
-              {/* <AnimationLottie animationPath={experience} /> */}
-            </div>
-          </div>
-
-          <div>
+      
+          
+          
             <div className="flex flex-col gap-6">
               {
                 experiences.map(experience => (
@@ -72,8 +67,8 @@ function Experience() {
                 ))
               }
             </div>
-          </div>
-        </div>
+         
+  
       </div>
     </div>
   );
