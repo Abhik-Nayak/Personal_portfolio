@@ -2,7 +2,7 @@ export const personalData = {
   name: "ABHIK NAYAK",
   profile: '/profile.jpg',
   designation: "Software Developer",
-  description: "My name is ABHIK NAYAK. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  description: "My name is ABHIK NAYAK. Experienced Full-Stack Developer with 3+ years of expertise in building high-performance web applications. Proficient in React.js, Next.js, Node.js, Express, and Django Rest Framework. Skilled in JavaScript, TypeScript, PostgreSQL, and MongoDB. Adept at UI development, API integration, and performance optimization. A proactive problem-solver, ensuring secure, scalable, and user-friendly solutions in agile environments.",
   email: 'abhiknayak.dev@gmail.com',
   phone: '+91 7008608725',
   address: 'Pattamundai,Kendrapada,Odisha,India - 754217',
@@ -13,5 +13,5 @@ export const personalData = {
   stackOverflow: '',
   leetcode: "",
   devUsername: "abhik98",
-  resume: ""
+  resume: "https://drive.google.com/file/d/1g9kmeZDdUfMKSzC4qtiRJgvD-onI8U3-/view"
 }
