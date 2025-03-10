@@ -14,10 +14,20 @@ const Projects = () => {
         </div>
       </div> */}
 
-      <div className="sticky top-10 ">
-        <h1 className="font-bold text-4xl md:text-5xl text-center">
+      <div className="sticky top-10 sticky-card-1">
+        <h1 className="font-bold text-4xl  text-center">
           A small selection of {""}
-          <span style={{ color: "#CBACF9" }}>recent projects</span>
+          <span 
+             style={{ 
+              background: "linear-gradient(to right, #CBACF9, #8C6DF8, #6C3DFF)", 
+              WebkitBackgroundClip: "text",  // For Webkit-based browsers (Chrome, Safari)
+              color: "transparent",          // Make the text color transparent to show the gradient
+              fontWeight: "bold", 
+              // fontSize: "24px" 
+            }}
+          >
+            recent projects
+          </span>
         </h1>
       </div>
 

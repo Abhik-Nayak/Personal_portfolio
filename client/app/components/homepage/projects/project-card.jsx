@@ -7,7 +7,7 @@ function ProjectCard({ project }) {
   return (
     <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full">
       <div className="flex flex-row">
-        <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
+        <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-blue-500 to-violet-600"></div>
         <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
       </div>
       <div className="px-4 lg:px-8 py-3 lg:py-5 relative">
@@ -23,9 +23,9 @@ function ProjectCard({ project }) {
       <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
         <code className="font-mono text-xs md:text-sm lg:text-base">
           <div className="blink">
-            <span className="mr-2 text-pink-500">const</span>
+            <span className="mr-2 text-blue-500">const</span>
             <span className="mr-2 text-white">project</span>
-            <span className="mr-2 text-pink-500">=</span>
+            <span className="mr-2 text-blue-500">=</span>
             <span className="text-gray-400">{'{'}</span>
           </div>
           <div>
