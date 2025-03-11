@@ -32,7 +32,7 @@ function Experience() {
       </div>
 
       <div className="py-8">
-        <div className="flex flex-row gap-6 mx-auto">
+        <div className="flex flex-col gap-6 mx-auto">
           {experiences.slice(0,2).map((experience) => (
             <GlowCard
               key={experience.id}
