@@ -69,7 +69,7 @@ const GlowCard = ({ children , identifier}) => {
   }, [identifier]);
 
   return (
-    <div className={`glow-container-${identifier} glow-container transition-all duration-300 ease-in-out hover:border-black hover:scale-[1.05] active:scale-[0.95] hover:rotate-[1.7deg]`} >
+    <div className={`glow-container-${identifier} glow-container transition-all duration-300 ease-in-out`} >
       <article className={`glow-card glow-card-${identifier} h-fit cursor-pointer border border-[#2a2e5a] transition-all duration-300 relative bg-[#101123] text-gray-200 rounded-xl hover:border-transparent w-full`}>
         <div className="glows"></div>
         {children}

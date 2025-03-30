@@ -1,13 +1,13 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-    },
+        name: 'Product Showcase App',
+        description: "I have developed a product showcase app using Next.js, React, Tailwind CSS, and other modern web technologies. The app is designed to visually display products like iPhones in a sleek, interactive manner. I have implemented smooth animations using AOS, a responsive carousel with React Multi Carousel, and a dark/light theme toggle using next-themes. It is hosted on Vercel, providing a seamless and fast user experience.",
+        tools: ['Next.js', 'React', 'Tailwind CSS', 'AOS', 'React Icons', 'React Multi Carousel', 'next-themes', 'Vercel'],
+        role: 'Frontend Developer',
+        code: 'https://github.com/Abhik-Nayak/Product_showcase_next_app', 
+        demo: 'https://product-showcase-app-abhik.vercel.app/',
+    },    
     {
         id: 2,
         name: 'Travel Agency App',
