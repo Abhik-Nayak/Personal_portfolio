@@ -19,12 +19,16 @@ export const projectsData = [
     },      
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
+        name: 'ShelfMaster',
+        description: 'ShelfMaster is an inventory and expense management dashboard. I built this full-stack app using Prisma, Express, and TypeScript for the backend, and Next.js with TailwindCSS and MUI for the frontend. It includes features like dynamic dashboards, product listings, user management, sales tracking, expense summaries, and secure APIs. State management is handled via Redux Toolkit, and data visualization is powered by Recharts. Prisma handles database ORM with PostgreSQL hosted on Render, and environment variables are managed using dotenv.',
+        tools: [
+          'Next.js', 'TailwindCSS', 'MUI', 'Redux Toolkit', 'Recharts',
+          'Express', 'Prisma', 'TypeScript', 'PostgreSQL', 'Vercel', 'Render',
+          'dotenv', 'JWT'
+        ],
+        code: '', // Add your GitHub repo link if available
+        demo: 'https://shelf-master-abhik.vercel.app', // Add your live demo link if deployed
+        role: 'Full Stack Developer'
     },
     {
         id: 4,
