@@ -31,14 +31,31 @@ export const projectsData = [
         role: 'Full Stack Developer'
     },
     {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    },
+    id: 4,
+    name: 'Reserve Restaurant Sheet App',
+    description: "A simple and modern MERN stack application where users can reserve a seat at a restaurant. I built both the frontend and backend, integrating a responsive React UI with a RESTful Express + MongoDB API. Features include real-time form validation, toast notifications, smooth navigation, and secure API communication.",
+    tools: [
+        'React 19',
+        'Vite',
+        'React Router DOM v7',
+        'Axios',
+        'React Toast',
+        'React Icons',
+        'React Scroll',
+        'Node.js',
+        'Express.js v5',
+        'MongoDB',
+        'Mongoose',
+        'dotenv',
+        'CORS',
+        'Cookie Parser',
+        'Validator'
+    ],
+    code: '', // Add your GitHub repo link here
+    demo: 'https://reserve-resturant-sheet.vercel.app/',
+    role: 'Full Stack Developer',
+}
+
      {
         id: 1,
         name: 'AI Powered Financial App',
