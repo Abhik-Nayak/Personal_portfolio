@@ -54,7 +54,7 @@ export const projectsData = [
     code: '', // Add your GitHub repo link here
     demo: 'https://reserve-resturant-sheet.vercel.app/',
     role: 'Full Stack Developer',
-}
+},
 
      {
         id: 1,
