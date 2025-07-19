@@ -26,12 +26,12 @@ function AboutSection() {
             <span className="text-[#00c4ff] font-semibold">Node.js</span>,{" "}
             <span className="text-[#00c4ff] font-semibold">Express</span> and
             <span className="text-[#00c4ff] font-semibold">
-            {" "} Django Rest Framework
+            {" "} Spring Boot Framework
             </span>
             . Skilled in{" "}
             <span className="text-[#00c4ff] font-semibold">JavaScript</span>,
             <span className="text-[#00c4ff] font-semibold">TypeScript</span>,{" "}
-            <span className="text-[#00c4ff] font-semibold">PostgreSQL</span>, and
+            <span className="text-[#00c4ff] font-semibold">PostgreSQL</span> and {" "}
             <span className="text-[#00c4ff] font-semibold">MongoDB</span>. Adept
             at UI development, API integration, and performance optimization. A
             proactive problem-solver, ensuring secure, scalable, and
